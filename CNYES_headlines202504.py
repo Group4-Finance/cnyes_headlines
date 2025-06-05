@@ -4,9 +4,9 @@ import time
 import random
 from datetime import datetime, timedelta
 
-# 只爬 2025 年 4 月
-month_start = datetime.strptime("2025-04-01", "%Y-%m-%d")
-month_end = datetime.strptime("2025-04-30", "%Y-%m-%d")
+# 爬取區間
+month_start = datetime.strptime("2020-01-01", "%Y-%m-%d")
+month_end = datetime.strptime("2020-12-31", "%Y-%m-%d")
 month_str = month_start.strftime("%Y-%m")
 
 # headers 設定
